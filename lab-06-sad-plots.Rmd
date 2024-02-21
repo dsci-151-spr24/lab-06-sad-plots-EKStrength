@@ -6,11 +6,21 @@ output:
     tufte_variant: "envisioned"
     highlight: pygments
 link-citations: true
+author: "Evan Kurtz"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(eval = TRUE)
 ```
+
+```
+install.packages("devtools")
+devtools::install_github("tidyverse/dsbox")
+
+```{r}
+
+```
+
 
 Given below are two data visualizations that violate many data visualization best practices.
 Improve these visualizations using R and the tips for effective visualizations that we introduced in class.
